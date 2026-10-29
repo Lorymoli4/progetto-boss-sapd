@@ -1,7 +1,11 @@
 {
-  "target_classes": {
-    "door": ["door", "half open door", "wooden door"],
-    "curb": ["curb", "pavement edge"],
-    "pole": ["pole", "street light pole", "traffic sign pole"]
-  }
+    "target_classes": {
+        "door": [
+            "door",
+            "wooden door"
+        ],
+        "curb": [
+            "curb"
+        ]
+    }
 }

@@ -1,0 +1,42 @@
+{
+    "images": [
+        {
+            "id": 101,
+            "file_name": "test_img_01.jpg"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "person"
+        },
+        {
+            "id": 2,
+            "name": "door"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 101,
+            "category_id": 1,
+            "bbox": [
+                10,
+                10,
+                50,
+                100
+            ]
+        },
+        {
+            "id": 2,
+            "image_id": 101,
+            "category_id": 2,
+            "bbox": [
+                200,
+                150,
+                80,
+                180
+            ]
+        }
+    ]
+}
